@@ -11,7 +11,7 @@
     <link rel="preload" href="assets/vendors/themify-icons/css/themify-icons.css" as="style">
 
 
-
+    <link rel="preload" href="assets/vendors/animate/animate.css" as="style">
 
 
     <!-- Bootstrap + FoodHut main styles -->
@@ -242,7 +242,7 @@
                 <div class="row">
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="assets/imgs/blog-4.webp" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$15</a></h1>
                                 <h4 class="pt20 pb20">Consectetur Adipisicing Elit</h4>
@@ -252,7 +252,7 @@
                     </div>
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="assets/imgs/blog-5.webp" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$29</a></h1>
                                 <h4 class="pt20 pb20">Ullam Laboriosam</h4>
@@ -262,7 +262,7 @@
                     </div>
                     <div class="col-md-4 my-3 my-md-0">
                         <div class="card bg-transparent border">
-                            <img src="assets/imgs/blog-6.webp" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
+                            <img src="assets/imgs/blog-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="rounded-0 card-img-top mg-responsive">
                             <div class="card-body">
                                 <h1 class="text-center mb-4"><a href="#" class="badge badge-primary">$3</a></h1>
                                 <h4 class="pt20 pb20">Fugit Ipsam</h4>
@@ -345,7 +345,7 @@
         </div>
     </div>
     <div class="bg-dark text-light text-center border-top wow fadeIn">
-        <p class="mb-0 py-3 text-muted small">&copy; Copyright <span id="currentYear"></span> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
+        <p class="mb-0 py-3 text-muted small">&copy; Copyright <script>document.write(new Date().getFullYear())</script> Made with <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com">DevCRUD</a></p>
     </div>
     <!-- end of page footer -->
 
@@ -361,9 +361,7 @@
     
     <!-- google maps -->
     <link rel="preload" href="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" as="script">
-    <script>
-        document.getElementById("currentYear").textContent = new Date().getFullYear();
-    </script>
+
     <!-- FoodHut js -->
     <script src="assets/js/foodhut.js"></script>
 
